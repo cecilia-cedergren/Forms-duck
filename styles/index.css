@@ -83,6 +83,10 @@
     color: #FFFFFF;
     border: none;
 }
+.btn:hover {
+    background-color: azure;
+    color: #468189;
+}
 input {
     border: none;
     border-bottom: 1px solid #9DBEBB;
