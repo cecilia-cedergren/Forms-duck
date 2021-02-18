@@ -1,0 +1,107 @@
+.background {
+    width: 1440px;
+    height: 900px;
+    background-color: #9dbebb;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+.form {
+    position: absolute;
+    width: 954px;
+    height: 594px;
+    left: 243px;
+    top: 153px;
+    background: #BE0909;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.25);
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FEFFFF;
+    display: flex;
+    flex-direction: column;
+}
+.name-container {
+    position: absolute;
+    width: 400px;
+    height: 72px;
+    left: 65px;
+    top: 64px;
+}
+.email-container {
+    position: absolute;
+    width: 160px;
+    height: 72px;
+    left: 65px;
+    top: 158px;
+}
+.scroll-container {
+    position: absolute;
+    width: 213px;
+    height: 72px;
+    left: 65px;
+    top: 261px;
+}
+.message-container {
+    position: absolute;
+    width: 400px;
+    height: 72px;
+    left: 65px;
+    top: 354px;
+}
+.box {
+    position: absolute;
+    width: 345px;
+    height: 594px;
+    left: 594px;
+    top: 153px;
+    background-color: #ffb039;
+    transform: translateX(259px);
+}
+.duck {
+    position: absolute;
+    width: 663px;
+    height: 603px;
+    left: 585px;
+    top: 205px;
+}
+.btn {
+    position: absolute;
+    width: 202px;
+    height: 48px;
+    left: 162px;
+    top: 482px;
+    background: #468189;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid #9DBEBB;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    border-radius: 40px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+}
+input {
+    border: none;
+    border-bottom: 1px solid #9DBEBB;
+    background: #BE0909;
+    color: #FEFFFF;
+}
+textarea {
+    background-color: #BE0909;
+    border: none;
+    border-bottom: 1px solid #9DBEBB;
+    color: #FEFFFF;
+    -webkit-appearance: none;
+    margin-top: 10px;
+}
+select {
+    background-color: #BE0909;
+    color: #FFFFFF;
+    border: none;
+    border-bottom: 1px solid #9DBEBB;
+    margin-top: 10px;
+    -webkit-appearance: none;
+}

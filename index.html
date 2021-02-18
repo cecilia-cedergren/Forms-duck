@@ -5,21 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <link rel="stylesheet" href="../forms/styles/reset.css">
+    <link rel="stylesheet" href="../forms/styles/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <section>
+    <section class="background">
         <form class="form" action="">
             <div class="name-container">
-                <label for="name">FULL NAME</label>
-                <input type="text">
+                <label for="text" class="name-container__label">FULL NAME</label>
+                <br>
+                <input type="text" class="name-container__input-name">
             </div>
             <div class="email-container">
-                <label for="email">EMAIL</label>
-                <input type="email" placeholder="Your Email">
+                <label for="email" class="email-container__label">EMAIL</label>
+                <input type="email" placeholder="Your Email" class="email-container__input">
             </div>
             <div class="scroll-container">
-                <label for="message">MESSAGE REGARDING</label>
-                <select name="message" id="message" name="message">
+                <label for="message" class="scroll-container__label">MESSAGE REGARDING</label>
+                <select name="message" id="message" name="message" class="scroll-container__msg">
+                    <option value="none"></option>
                     <option value="duck">Duck</option>
                     <option value="duckling">Duckling</option>
                     <option value="donaldduck">Donald Duck</option>
@@ -27,9 +33,9 @@
             </div>
             <div class="message-container">  
                 <label for="text" class="message">MESSAGE</label>
-                <textarea name="your massage" placeholder="Your Massage" id="your message" cols="30" rows="10"></textarea>
+                <textarea name="your massage" placeholder="Your Massage" id="your message" cols="30" rows="1"></textarea>
             </div>
-            <button type="submit" class="button"></button>
+            <button type="submit" class="btn">SEND MESSAGE</button>
         </form>
         <div class="box"></div>
         <img class="duck" src="../forms/images/hiclipart 2.png" alt="duck">
